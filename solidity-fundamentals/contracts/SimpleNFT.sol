@@ -11,7 +11,7 @@ contract SimpleNFT {
     mapping(address => uint256) public balanceOf;
 
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
-
+    // main function
     function mint() public {
         totalSupply++;
         uint256 newTokenId = totalSupply;
